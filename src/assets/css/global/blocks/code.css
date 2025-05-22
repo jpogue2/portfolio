@@ -6,6 +6,7 @@
   --color-code-pink: hsl(350, 70%, 60%);
   --color-code-blue-gray: #233a52;
   --color-code-gray: hsl(0, 0%, 58%);
+  --color-code-cardinal: #990000;
   --color-code-bg: color-mix(in oklab, var(--color-bg) 92%, black);
 }
 

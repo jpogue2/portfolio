@@ -65,6 +65,18 @@
     {
       "name": "Gold Subdued",
       "value": "#f1c15b"
+    },
+    {
+      "name": "Cardinal",
+      "value": "#990000"
+    },
+    {
+      "name": "Gold Dark",
+      "value": "#e0b743"
+    },
+    {
+      "name": "Orange",
+      "value": "#cf7302"
     }
   ]
 }

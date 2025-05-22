@@ -3,53 +3,63 @@ layout: base
 permalink: /index.html
 title: 'Meet Jeremy Pogue!'
 description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement.'
-blog:
-  title: 'Blog'
-  intro: "I'm showing the last 4 blog posts, but there might be more!"
 ---
+
+{% import "macros.njk" as macros %}
 
 <div class="wrapper">
   <header class="full | section" style="--spot-color: var(--color-primary)">
     <div class="section__inner flow region text-center">
       <h1 class="text-center" style="color: var(--color-light);">{{ title }}</h1>
-      <img src="/assets/images/soldering-iron.jpeg" alt="Jeremy holding soldering iron" style="max-width: 300px; width: 100%; height: auto; margin-inline: auto;">
+      <div class="wrapper">
+        <div class="grid | gap-s" style="grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 900px; margin-inline: auto;">
+          <img src="/assets/images/scavenger.jpeg" alt="An embedded systems device that implements an interactive adventure journal." style="width: 100%; height: auto; border-radius: 0.5rem;">
+          <img src="/assets/images/soldering-iron.jpeg" alt="Jeremy holding a soldering iron in front of an interactive mini-golf course." style="width: 100%; height: auto; border-radius: 0.5rem;">
+          <img src="/assets/images/crossy-road.jpg" alt="Photo 3" style="width: 100%; height: auto; border-radius: 0.5rem;">
+        </div>
+      </div>
     </div>
     {% svg "divider/waves", null, "divider" %}
   </header>
 
   <article class="full | region">
-    <div class="wrapper flow prose">
-      <h2 id="an-eleventy-starter">An Eleventy starter</h2>
-      <p>
-        Built around a CSS workflow that emphasizes guiding browser styling rather than micromanaging it. It
-        incorporates progressive enhancement, fluid type and spacing, and utilizes modern CSS features for
-        layout. The goal is to develop frontends that provide a great experience across all devices,
-        connection speeds, and usage contexts.
-      </p>
-      <p>
-        <strong>This is <a href="https://github.com/madrilene/eleventy-excellent/">version 4</a>.</strong> I keep a
-        <a href="https://github.com/madrilene/eleventy-excellent/tree/v1">branch of v1</a>,
-        <a href="https://github.com/madrilene/eleventy-excellent/tree/v2">v2</a> and <a href="https://github.com/madrilene/eleventy-excellent/tree/v3">v3</a>. I  tried to <a href="/get-started/#docs-lol">document most features and methodologies</a>.
-      </p>
-      <p><strong>Have fun</strong> and let me know if you find any issues or have ideas for improvements!</p>
+    <div class="wrapper">
+      <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 2rem;">
+        
+        <!-- Text stays fixed-width and left-aligned -->
+        <div class="flow prose" style="flex: 1 1 300px; min-width: 250px;">
+          <h2 id="an-eleventy-starter">Curious. Inventive. Authentic.</h2>
+          <p>
+            Hi, there! I’m <strong>Jeremy Pogue</strong>, a <strong>Computer Engineering</strong> Master’s student at the <span class="font-bold">{{ macros.altColor("University of Southern California", "text-cardinal", "text-gold-dark") }}</span>.
+          </p>
+          <p>
+            I’m a <strong>purpose-driven</strong> engineer passionate about creating multidisciplinary solutions to complex challenges. Through personal projects and coursework, I have extensive experience in <strong>embedded systems, software development, and project management</strong>. I’m also the founder and two-year president of <span class="font-bold text-orange">Scream USC</span>, the leading USC student organization for amusement park engineers and enthusiasts. 
+          </p>
+          <p>
+            My academic foundation spans a broad spectrum of disciplines:
+          </p>
+          <ul class="list-disc list-inside leading-relaxed">
+            <li><strong>Hardware & Systems:</strong> Digital Logic Design, VLSI, Computer Architecture, Distributed Systems</li>
+            <li><strong>Software & Data:</strong> Algorithms, Machine Learning, Networking, Operating Systems, Graphics, Data Analytics</li>
+            <li><strong>Creative & Design:</strong> Game Design, Special Effects, Narrative Design, Themed Entertainment</li>
+            <li><strong>Communication:</strong> Technical Writing</li>
+          </ul>
+          <p>
+            Moving forward, I’m driven to build technology that improves life: not just making it easier, but more meaningful and connected.
+          </p>
+        </div>
+
+        <!-- Image wraps to the right when there's space -->
+        <div style="flex: 0 0 auto;">
+          <img
+            src="/assets/images/jeremy-portrait.jpg"
+            alt="Jeremy portrait"
+            style="width: 100%; max-width: 400px; height: auto;">
+        </div>
+
+      </div>
     </div>
   </article>
 
-  <section class="full | region">
-    <div class="wrapper flow prose">
-      <h2>{{ blog.title }}</h2>
-      {% if blog.intro %}
-        <p>{{ blog.intro }}</p>
-      {% endif %}
-      <div class="feature |  region region-space-l">
-        <custom-masonry layout="50-50">
-          {% set itemList = collections.allPosts %}
-					{% asyncEach item in itemList.slice(0, 4) %}
-            {% set headingLevel = "h3" %}
-						{% include "partials/card-blog.njk" %}
-					{% endeach %}
-        </custom-masonry>
-      </div>
-    </div>
-  </section>
+
 </div>
