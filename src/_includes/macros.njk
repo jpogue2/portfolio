@@ -1,0 +1,11 @@
+{% macro altColor(text, class1, class2) -%}
+  {%- for c in text -%}
+    {%- if c == ' ' -%}
+      {{ ' ' }}
+    {%- elif loop.index0 % 4 >= 2 -%}
+      <span class="{{ class1 }}">{{ c }}</span>
+    {%- else -%}
+      <span class="{{ class2 }}">{{ c }}</span>
+    {%- endif -%}
+  {%- endfor -%}
+{%- endmacro %}
