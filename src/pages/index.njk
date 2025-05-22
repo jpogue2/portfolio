@@ -24,10 +24,9 @@ description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flex
 
   <article class="full | region">
     <div class="wrapper">
-      <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 2rem;">
-        
-        <!-- Text stays fixed-width and left-aligned -->
-        <div class="flow prose" style="flex: 1 1 300px; min-width: 250px;">
+      <div>
+        <div class="flow" style="flex: 1 1 300px; min-width: 250px;">
+          <img src="/assets/images/jeremy-portrait.jpg" alt="Description" style="float: right; width: 350px; height: auto; margin-left: 1.5rem; margin-bottom: 0.5rem;">
           <h2 id="an-eleventy-starter">Curious. Inventive. Authentic.</h2>
           <p>
             Hi, there! I’m <strong>Jeremy Pogue</strong>, a <strong>Computer Engineering</strong> Master’s student at the <span class="font-bold">{{ macros.altColor("University of Southern California", "text-cardinal", "text-gold-dark") }}</span>.
@@ -50,12 +49,6 @@ description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flex
         </div>
 
         <!-- Image wraps to the right when there's space -->
-        <div style="flex: 0 0 auto;">
-          <img
-            src="/assets/images/jeremy-portrait.jpg"
-            alt="Jeremy portrait"
-            style="width: 100%; max-width: 400px; height: auto;">
-        </div>
 
       </div>
     </div>
