@@ -4,6 +4,7 @@
   --color-code-indigo: hsl(260, 48%, 56%);
   --color-code-violet: hsl(314, 70%, 60%);
   --color-code-pink: hsl(350, 70%, 60%);
+  --color-code-blue-gray: #233a52;
   --color-code-gray: hsl(0, 0%, 58%);
   --color-code-bg: color-mix(in oklab, var(--color-bg) 92%, black);
 }
@@ -50,7 +51,7 @@ pre[class*='language-'] {
 }
 
 .token.atrule {
-  color: var(--color-code-pink);
+  color: var(--color-code-blue-gray);
 }
 
 .token.attr-name {
@@ -66,7 +67,7 @@ pre[class*='language-'] {
 }
 
 .token.boolean {
-  color: var(--color-code-pink);
+  color: var(--color-code-blue-gray);
 }
 
 .token.builtin {
@@ -98,11 +99,11 @@ pre[class*='language-'] {
 }
 
 .token.constant {
-  color: var(--color-code-pink);
+  color: var(--color-code-blue-gray);
 }
 
 .token.deleted {
-  color: var(--color-code-pink);
+  color: var(--color-code-blue-gray);
 }
 
 .token.doctype {
@@ -110,11 +111,11 @@ pre[class*='language-'] {
 }
 
 .token.entity {
-  color: var(--color-code-pink);
+  color: var(--color-code-blue-gray);
 }
 
 .token.function {
-  color: var(--color-code-pink);
+  color: var(--color-code-blue-gray);
 }
 
 .token.hexcode {
@@ -122,12 +123,12 @@ pre[class*='language-'] {
 }
 
 .token.id {
-  color: var(--color-code-pink);
+  color: var(--color-code-blue-gray);
   font-weight: var(--font-bold);
 }
 
 .token.important {
-  color: var(--color-code-pink);
+  color: var(--color-code-blue-gray);
   font-weight: var(--font-bold);
 }
 
@@ -136,7 +137,7 @@ pre[class*='language-'] {
 }
 
 .token.keyword {
-  color: var(--color-code-pink);
+  color: var(--color-code-blue-gray);
   font-style: italic;
 }
 
@@ -173,7 +174,7 @@ pre[class*='language-'] {
 }
 
 .token.selector {
-  color: var(--color-code-pink);
+  color: var(--color-code-blue-gray);
 }
 
 .token.string {
@@ -181,15 +182,15 @@ pre[class*='language-'] {
 }
 
 .token.symbol {
-  color: var(--color-code-pink);
+  color: var(--color-code-blue-gray);
 }
 
 .token.tag {
-  color: var(--color-code-pink);
+  color: var(--color-code-blue-gray);
 }
 
 .token.unit {
-  color: var(--color-code-pink);
+  color: var(--color-code-blue-gray);
 }
 
 .token.url {
@@ -197,7 +198,7 @@ pre[class*='language-'] {
 }
 
 .token.variable {
-  color: var(--color-code-pink);
+  color: var(--color-code-blue-gray);
 }
 
 /* CodePen iframe */
