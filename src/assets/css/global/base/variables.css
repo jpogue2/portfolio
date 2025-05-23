@@ -14,8 +14,8 @@
   --gradient-rainbow: linear-gradient(90deg, #cf4662 10%, #fbbe25 30%, #62c95c 50%, #08bccb 75%, #a977d5 90%);
   --gradient-conic: conic-gradient(
     var(--color-primary) 0 28%,
-    var(--color-secondary) 0 67%,
-    var(--color-tertiary) 0 100%
+    var(--color-tertiary) 0 67%,
+    var(--color-secondary) 0 100%
   );
   --gradient-stripes: linear-gradient(
     45deg,
@@ -37,8 +37,8 @@
   --color-bg: var(--color-gray-100);
 
   --color-primary: #233a52;
-  --color-secondary: var(--color-blue);
-  --color-tertiary: var(--color-gold);
+  --color-secondary: #007acc;
+  --color-tertiary: #fbbe25;
 
   --color-text-accent: var(--color-gray-700);
   --color-bg-accent: var(--color-gray-200);
@@ -51,7 +51,7 @@
     --color-text: var(--color-gray-100);
     --color-bg: var(--color-gray-800);
 
-    --color-primary: var(--color-pink-subdued);
+    --color-primary: #1c2e41;
     --color-secondary: var(--color-blue-subdued);
     --color-tertiary: var(--color-gold-subdued);
 
@@ -64,7 +64,7 @@
   --color-text: var(--color-gray-100);
   --color-bg: var(--color-gray-800);
 
-  --color-primary: var(--color-pink-subdued);
+  --color-primary: #859db6;
   --color-secondary: var(--color-blue-subdued);
   --color-tertiary: var(--color-gold-subdued);
 
