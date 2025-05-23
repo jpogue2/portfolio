@@ -19,7 +19,12 @@ description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flex
         </div>
       </div>
     </div>
-    {% svg "divider/waves", null, "divider" %}
+    {% svg "divider/coaster", null, "divider" %}
+    <img 
+    src="/assets/images/coaster-train.svg" 
+    alt="Roller coaster train"
+    class="coaster-train"
+    style="position: absolute; top: 86%; left: 9%; width: 120px; transform: rotate(-5deg);">
   </header>
 
   <article class="full | region">
@@ -29,10 +34,12 @@ description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flex
           <img src="/assets/images/jeremy-portrait.jpg" alt="Description" style="float: right; width: 350px; height: auto; margin-left: 1.5rem; margin-bottom: 0.5rem;">
           <h2 id="an-eleventy-starter">Curious. Inventive. Authentic.</h2>
           <p>
-            Hi, there! I’m <strong>Jeremy Pogue</strong>, a <strong>Computer Engineering</strong> Master’s student at the <span class="font-bold">{{ macros.altColor("University of Southern California", "text-cardinal", "text-gold-dark") }}</span>.
+            Hi, there! I’m <strong>Jeremy Pogue</strong>, a <strong>Computer Engineering</strong> Master’s student at the <a href="https://viterbischool.usc.edu/news/2025/05/he-rode-103-roller-coasters-now-hes-building-the-next-one/" class="font-bold underline group">
+  {{ macros.altColor("University of Southern California", "text-gray group-hover:text-gold", "text-gray group-hover:text-cardinal") }}</a>.
           </p>
           <p>
-            I’m a <strong>purpose-driven</strong> engineer passionate about creating multidisciplinary solutions to complex challenges. Through personal projects and coursework, I have extensive experience in <strong>embedded systems, software development, and project management</strong>. I’m also the founder and two-year president of <span class="font-bold text-orange">Scream USC</span>, the leading USC student organization for amusement park engineers and enthusiasts. 
+            I’m a <strong>purpose-driven</strong> engineer passionate about creating multidisciplinary solutions to complex challenges. Through personal projects and coursework, I have extensive experience in <strong>embedded systems, software development, and project management</strong>. I’m also the founder and former two-year president of <a href="https://www.linkedin.com/company/scream-usc" class="underline group">
+  <span class="font-bold text-gray group-hover:text-orange transition-colors duration-200">Scream USC</span></a>, the leading USC student organization for amusement park engineers and enthusiasts. 
           </p>
           <p>
             My academic foundation spans a broad spectrum of disciplines:
@@ -44,7 +51,7 @@ description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flex
             <li><strong>Communication:</strong> Technical Writing</li>
           </ul>
           <p>
-            Moving forward, I’m driven to build technology that improves life: not just making it easier, but more meaningful and connected.
+            Moving forward, I’m driven to build technology that improves life: not just making it easier, but more meaningful.
           </p>
         </div>
 
