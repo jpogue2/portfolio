@@ -1,0 +1,414 @@
+[
+  {
+    "name": "Iron Gwazi",
+    "park": "Busch Gardens Tampa"
+  },
+  {
+    "name": "F.L.Y.",
+    "park": "Phantasialand"
+  },
+  {
+    "name": "Top Thrill Dragster",
+    "park": "Cedar Point"
+  },
+  {
+    "name": "Hagrid\u2019s Magical Creatures Motorbike Adventure",
+    "park": "Universal's Islands of Adventure"
+  },
+  {
+    "name": "Steel Vengeance",
+    "park": "Cedar Point"
+  },
+  {
+    "name": "Velocicoaster",
+    "park": "Universal's Islands of Adventure"
+  },
+  {
+    "name": "The Voyage",
+    "park": "Holiday World"
+  },
+  {
+    "name": "Millennium Force",
+    "park": "Cedar Point"
+  },
+  {
+    "name": "Maverick",
+    "park": "Cedar Point"
+  },
+  {
+    "name": "Time Traveler",
+    "park": "Silver Dollar City"
+  },
+  {
+    "name": "Guardians of the Galaxy: Cosmic Rewind",
+    "park": "EPCOT"
+  },
+  {
+    "name": "The Legend",
+    "park": "Holiday World"
+  },
+  {
+    "name": "ArieForce One",
+    "park": "Fun Spot America Atlanta"
+  },
+  {
+    "name": "X2",
+    "park": "Six Flags Magic Mountain"
+  },
+  {
+    "name": "Taron",
+    "park": "Phantasialand"
+  },
+  {
+    "name": "GhostRider",
+    "park": "Knott\u2019s Berry Farm"
+  },
+  {
+    "name": "Incredible Hulk",
+    "park": "Universal's Islands of Adventure"
+  },
+  {
+    "name": "Mako",
+    "park": "SeaWorld Orlando"
+  },
+  {
+    "name": "Outlaw Run",
+    "park": "Silver Dollar City"
+  },
+  {
+    "name": "Tatsu",
+    "park": "Six Flags Magic Mountain"
+  },
+  {
+    "name": "SheiKra",
+    "park": "Busch Gardens Tampa"
+  },
+  {
+    "name": "The Raven",
+    "park": "Holiday World"
+  },
+  {
+    "name": "Thunderbird",
+    "park": "Holiday World"
+  },
+  {
+    "name": "Hollywood Rip Ride Rockit",
+    "park": "Universal Studios Florida"
+  },
+  {
+    "name": "Twisted Colossus",
+    "park": "Six Flags Magic Mountain"
+  },
+  {
+    "name": "Pipeline: The Surf Coaster",
+    "park": "SeaWorld Orlando"
+  },
+  {
+    "name": "Cannibal",
+    "park": "Lagoon"
+  },
+  {
+    "name": "TRON: Lightcycle Run",
+    "park": "Magic Kingdom"
+  },
+  {
+    "name": "Valravn",
+    "park": "Cedar Point"
+  },
+  {
+    "name": "Cheetah Hunt",
+    "park": "Busch Gardens Tampa"
+  },
+  {
+    "name": "Xcelerator",
+    "park": "Knott\u2019s Berry Farm"
+  },
+  {
+    "name": "Montu",
+    "park": "Busch Gardens Tampa"
+  },
+  {
+    "name": "Magnum XL-200",
+    "park": "Cedar Point"
+  },
+  {
+    "name": "Wonder Woman: Flight of Courage",
+    "park": "Six Flags Magic Mountain"
+  },
+  {
+    "name": "Mine Blower",
+    "park": "Fun Spot Kissimmee"
+  },
+  {
+    "name": "Wicked",
+    "park": "Lagoon"
+  },
+  {
+    "name": "Space Mountain",
+    "park": "Magic Kingdom"
+  },
+  {
+    "name": "Revenge of the Mummy",
+    "park": "Universal Studios Florida"
+  },
+  {
+    "name": "Manta",
+    "park": "SeaWorld Orlando"
+  },
+  {
+    "name": "Black Mamba",
+    "park": "Phantasialand"
+  },
+  {
+    "name": "Winja\u2019s Fear",
+    "park": "Phantasialand"
+  },
+  {
+    "name": "Cobra\u2019s Curse",
+    "park": "Busch Gardens Tampa"
+  },
+  {
+    "name": "Wildfire",
+    "park": "Silver Dollar City"
+  },
+  {
+    "name": "Ice Breaker",
+    "park": "SeaWorld Orlando"
+  },
+  {
+    "name": "Incredicoaster",
+    "park": "Disney's California Adventure"
+  },
+  {
+    "name": "Rock n\u2019 Roller Coaster",
+    "park": "Disney\u2019s Hollywood Studios"
+  },
+  {
+    "name": "Kumba",
+    "park": "Busch Gardens Tampa"
+  },
+  {
+    "name": "Expedition Everest",
+    "park": "Disney\u2019s Animal Kingdom"
+  },
+  {
+    "name": "Full Throttle",
+    "park": "Six Flags Magic Mountain"
+  },
+  {
+    "name": "Powder Keg",
+    "park": "Silver Dollar City"
+  },
+  {
+    "name": "HangTime",
+    "park": "Knott\u2019s Berry Farm"
+  },
+  {
+    "name": "Apocalypse",
+    "park": "Six Flags Magic Mountain"
+  },
+  {
+    "name": "White Lightning",
+    "park": "Fun Spot America Orlando"
+  },
+  {
+    "name": "Batman: The Ride",
+    "park": "Six Flags Magic Mountain"
+  },
+  {
+    "name": "Goliath",
+    "park": "Six Flags Magic Mountain"
+  },
+  {
+    "name": "Colorado Adventure",
+    "park": "Phantasialand"
+  },
+  {
+    "name": "Viper",
+    "park": "Six Flags Magic Mountain"
+  },
+  {
+    "name": "Dragon Challenge (blue)",
+    "park": "Universal's Islands of Adventure"
+  },
+  {
+    "name": "Dragon Challenge (red)",
+    "park": "Universal's Islands of Adventure"
+  },
+  {
+    "name": "Riddler\u2019s Revenge",
+    "park": "Six Flags Magic Mountain"
+  },
+  {
+    "name": "Raptor",
+    "park": "Cedar Point"
+  },
+  {
+    "name": "Big Thunder Mountain Railroad",
+    "park": "Disneyland"
+  },
+  {
+    "name": "GateKeeper",
+    "park": "Cedar Point"
+  },
+  {
+    "name": "Wicked Twister",
+    "park": "Cedar Point"
+  },
+  {
+    "name": "Kraken",
+    "park": "SeaWorld Orlando"
+  },
+  {
+    "name": "West Coast Racers",
+    "park": "Six Flags Magic Mountain"
+  },
+  {
+    "name": "Revenge of the Mummy",
+    "park": "Universal Studios Hollywood"
+  },
+  {
+    "name": "The Roller Coaster",
+    "park": "Tivoli Gardens"
+  },
+  {
+    "name": "Mantis",
+    "park": "Cedar Point"
+  },
+  {
+    "name": "Scream",
+    "park": "Six Flags Magic Mountain"
+  },
+  {
+    "name": "Rougarou",
+    "park": "Cedar Point"
+  },
+  {
+    "name": "Harry Potter and the Escape from Gringotts",
+    "park": "Universal Studios Florida"
+  },
+  {
+    "name": "Seven Dwarves Mine Train",
+    "park": "Magic Kingdom"
+  },
+  {
+    "name": "Space Mountain",
+    "park": "Disneyland"
+  },
+  {
+    "name": "Colossus: The Fire Dragon",
+    "park": "Lagoon"
+  },
+  {
+    "name": "Journey to Atlantis",
+    "park": "SeaWorld Orlando"
+  },
+  {
+    "name": "Matterhorn Bobsleds",
+    "park": "Disneyland"
+  },
+  {
+    "name": "Big Thunder Mountain Railroad",
+    "park": "Magic Kingdom"
+  },
+  {
+    "name": "Big Apple Coaster",
+    "park": "New York-New York Hotel & Casino Las Vegas"
+  },
+  {
+    "name": "Raik",
+    "park": "Phantasialand"
+  },
+  {
+    "name": "Good Gravy",
+    "park": "Holiday World"
+  },
+  {
+    "name": "Revolution",
+    "park": "Six Flags Magic Mountain"
+  },
+  {
+    "name": "Goofy\u2019s Sky School",
+    "park": "Disney's California Adventure"
+  },
+  {
+    "name": "Coast Rider",
+    "park": "Knott\u2019s Berry Farm"
+  },
+  {
+    "name": "Scorpion",
+    "park": "Busch Gardens Tampa"
+  },
+  {
+    "name": "Boomerang",
+    "park": "Elitch Gardens"
+  },
+  {
+    "name": "Sidewinder",
+    "park": "Elitch Gardens"
+  },
+  {
+    "name": "Ninja",
+    "park": "Six Flags Magic Mountain"
+  },
+  {
+    "name": "Sierra Sidewinder",
+    "park": "Knott\u2019s Berry Farm"
+  },
+  {
+    "name": "Demon",
+    "park": "Tivoli Gardens"
+  },
+  {
+    "name": "Fire in the Hole",
+    "park": "Silver Dollar City"
+  },
+  {
+    "name": "Superman: Escape from Krypton",
+    "park": "Six Flags Magic Mountain"
+  },
+  {
+    "name": "The High in the Sky Seuss Trolley Train Ride!",
+    "park": "Universal's Islands of Adventure"
+  },
+  {
+    "name": "Gemini",
+    "park": "Cedar Point"
+  },
+  {
+    "name": "Twister II",
+    "park": "Elitch Gardens"
+  },
+  {
+    "name": "Iron Dragon",
+    "park": "Cedar Point"
+  },
+  {
+    "name": "The Milky Way Express",
+    "park": "Tivoli Gardens"
+  },
+  {
+    "name": "Flight of the Hippogriff",
+    "park": "Universal Studios Hollywood"
+  },
+  {
+    "name": "Mind Eraser",
+    "park": "Elitch Gardens"
+  },
+  {
+    "name": "Half Pipe",
+    "park": "Elitch Gardens"
+  },
+  {
+    "name": "The Barnstormer",
+    "park": "Magic Kingdom"
+  },
+  {
+    "name": "Corkscrew",
+    "park": "Cedar Point"
+  },
+  {
+    "name": "Blazin\u2019 Buckaroo",
+    "park": "Elitch Gardens"
+  }
+]

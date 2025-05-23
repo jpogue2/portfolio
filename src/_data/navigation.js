@@ -1,34 +1,22 @@
 export default {
   top: [
     {
-      text: 'About',
-      url: '/about/'
+      text: 'Highlights',
+      url: '/highlights/'
     },
     {
-      text: 'Docs',
-      url: '/get-started/'
+      text: 'Achievements',
+      url: '/achievements/'
     },
     {
-      text: 'Built with',
-      url: '/built-with/'
+      text: 'Other Projects',
+      url: '/other-projects/'
     },
     {
-      text: 'Blog',
-      url: '/blog/'
-    }
+      text: 'Coasterboard',
+      url: '/coasterboard/'
+    },
   ],
   bottom: [
-    {
-      text: 'Style guide',
-      url: '/styleguide/'
-    },
-    {
-      text: 'Imprint',
-      url: '/imprint/'
-    },
-    {
-      text: 'Privacy',
-      url: '/privacy/'
-    }
   ]
 };
