@@ -1,0 +1,43 @@
+---
+title: Highlights
+permalink: /highlights/index.html
+description: 'My top projects'
+layout: page
+sizes: '(max-width: 615px) 50vw, 100vw'
+widths: [400, 520]
+---
+
+<p>
+  These projects are <strong>"the cream of the crop"</strong>. The ones I spent many months or years building during early mornings and late nights. They’re not just highlights I’m proud of; they also offer a glimpse into <strong>how I think and iterate</strong>. If you’re short on time, this is where I’d start.
+</p>
+
+<article class="full  section" style="--spot-color: var(--color-bg-accent)">
+  {% svg "divider/soft-top", null, "divider" %}
+
+  <section class="feature section__inner wrapper">
+    <div
+      class="feature grid region"
+      style="--region-space-top: var(--space-xl); --gutter: var(--space-xl) var(--space-xs)"
+    >
+      <!-- you find tha data for that in src/_data/builtwith.json -->
+      {% for site in builtwith | shuffle %}
+        <a href="{{ site.url }}" class="card-link">
+        <custom-card clickable img-square class="text-step-min-1" style="--card-bg: var(--color-bg)">
+            {% image "./src/assets/images/screenshots/" + site.filename + ".jpg", site.name, null, "lazy", null, null, widths, sizes %}
+            <h3 slot="headline" class="text-step-min-1">{{ site.name }}</h3>
+            <p slot="content">{{ site.description }}</p>
+            <footer slot="footer" class="repel">
+            <span>{{ site.date }}</span>
+            </footer>
+        </custom-card>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  {% svg "divider/soft-bottom", null, "divider" %}
+</article>
+
+{% css "local" %}
+  {% include "css/custom-card.css" %}
+{% endcss %}

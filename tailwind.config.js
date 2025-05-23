@@ -7,7 +7,6 @@ import postcssJs from 'postcss-js';
 import {clampGenerator} from './src/_config/utils/clamp-generator.js';
 import {tokensToTailwind} from './src/_config/utils/tokens-to-tailwind.js';
 
-// Raw design tokens
 import colorTokens from './src/_data/designTokens/colors.json';
 import borderRadiusTokens from './src/_data/designTokens/borderRadius.json';
 import fontTokens from './src/_data/designTokens/fonts.json';
@@ -17,7 +16,6 @@ import textLeadingTokens from './src/_data/designTokens/textLeading.json';
 import textWeightTokens from './src/_data/designTokens/textWeights.json';
 import viewportTokens from './src/_data/designTokens/viewports.json';
 
-// Process design tokens
 const colors = tokensToTailwind(colorTokens.items);
 const borderRadius = tokensToTailwind(borderRadiusTokens.items);
 const fontFamily = tokensToTailwind(fontTokens.items);
@@ -27,6 +25,7 @@ const lineHeight = tokensToTailwind(textLeadingTokens.items);
 const spacing = tokensToTailwind(clampGenerator(spacingTokens.items));
 
 export default {
+  darkMode: ['class', '[data-theme="dark"]'],
   content: ['./src/**/*.{html,js,md,njk,liquid,webc}'],
   presets: [],
   theme: {
@@ -70,30 +69,20 @@ export default {
     'active',
     'disabled'
   ],
-
-  // Disables Tailwind's reset etc
   corePlugins: {
     preflight: false,
     textOpacity: false,
     backgroundOpacity: false,
     borderOpacity: false
   },
-
-  // Prevents Tailwind's core components
   blocklist: ['container'],
-
-  // Prevents Tailwind from generating that wall of empty custom properties
   experimental: {
     optimizeUniversalDefaults: true
   },
-
   plugins: [
-    // Generates custom property values from tailwind config
     plugin(function ({addComponents, config}) {
       let result = '';
-
       const currentConfig = config();
-
       const groups = [
         {key: 'colors', prefix: 'color'},
         {key: 'borderRadius', prefix: 'border-radius'},
@@ -106,11 +95,7 @@ export default {
 
       groups.forEach(({key, prefix}) => {
         const group = currentConfig.theme[key];
-
-        if (!group) {
-          return;
-        }
-
+        if (!group) return;
         Object.keys(group).forEach(key => {
           result += `--${prefix}-${key}: ${group[key]};`;
         });
@@ -121,7 +106,6 @@ export default {
       });
     }),
 
-    // Generates custom utility classes
     plugin(function ({addUtilities, config}) {
       const currentConfig = config();
       const customUtilities = [
@@ -132,11 +116,7 @@ export default {
 
       customUtilities.forEach(({key, prefix, property}) => {
         const group = currentConfig.theme[key];
-
-        if (!group) {
-          return;
-        }
-
+        if (!group) return;
         Object.keys(group).forEach(key => {
           addUtilities({
             [`.${prefix}-${key}`]: postcssJs.objectify(postcss.parse(`${property}: ${group[key]}`))
