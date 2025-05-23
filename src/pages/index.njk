@@ -19,12 +19,21 @@ description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flex
         </div>
       </div>
     </div>
-    {% svg "divider/coaster", null, "divider" %}
-    <img 
-    src="/assets/images/coaster-train.svg" 
-    alt="Roller coaster train"
-    class="coaster-train"
-    style="position: absolute; top: 86%; left: 9%; width: 120px; transform: rotate(-5deg);">
+    <div class="divider-wrapper" style="position: relative;">
+      {% svg "divider/coaster", null, "divider" %}
+      <img 
+        src="/assets/images/coaster-train.svg" 
+        alt="Roller coaster train"
+        class="coaster-train"
+        style="
+          position: absolute;
+          left: 130px;
+          bottom: 15px;
+          width: 120px;
+          transform: rotate(-5deg);
+          pointer-events: none;"
+      >
+    </div>
   </header>
 
   <article class="full | region">
