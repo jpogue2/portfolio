@@ -27,6 +27,7 @@ custom-card :is(h2, h3) {
 
 custom-card :is(h2, h3) a {
   text-decoration: none;
+  color: inherit;
 }
 
 custom-card > :is(picture, figure) {
@@ -90,9 +91,11 @@ custom-card[clickable]:focus-within {
 custom-card[clickable]:focus-within a:focus {
   outline: none;
 }
+
 custom-card[clickable] {
   position: relative;
 }
+
 custom-card[clickable] a:after {
   bottom: 0;
   content: '';
@@ -100,4 +103,16 @@ custom-card[clickable] a:after {
   position: absolute;
   right: 0;
   top: 0;
+}
+
+/* -------------------- new: full-card anchor styling --------------------  */
+
+a.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+a.card-link:hover {
+  text-decoration: none;
 }
