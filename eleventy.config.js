@@ -98,6 +98,8 @@ export default async function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy(path)
   );
 
+  eleventyConfig.addPassthroughCopy({ 'src/assets/images': 'assets/images' });
+
   eleventyConfig.addPassthroughCopy({
     // -- to root
     'src/assets/images/favicon/*': '/',
