@@ -14,7 +14,7 @@
 }
 
 .prose :is(img, video) {
-  border: var(--stroke);
+  border: none;
 }
 
 .prose :is(h2, h3, h4) {
