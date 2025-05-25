@@ -23,3 +23,7 @@ a[href^='http']:not([href*='localhost:8080']):not([href*='eleventy-excellent.net
   white-space: nowrap;
   text-indent: 1em; /* the width of the icon */
 }
+
+a.no-arrow::after {
+  content: none !important;
+}
