@@ -19,6 +19,19 @@
   -webkit-background-clip: text;
 }
 
+.gradient-text-golf {
+  color: transparent;
+  background-image: conic-gradient(
+    var(--color-secondary-golf) 0 28%,
+    var(--color-tertiary-golf) 0 67%,
+    var(--color-primary-golf) 0 100%
+  );
+  padding: 0.6rem 0;
+  background-size: 50%;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
 .gradient-text-linear {
   color: transparent;
   background-image: var(--gradient-rainbow);

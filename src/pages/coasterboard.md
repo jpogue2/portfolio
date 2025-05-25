@@ -1,7 +1,7 @@
 ---
 title: Coasterboard
 permalink: /coasterboard/index.html
-description: Jeremy's coaster rankings!
+description: Jeremy Pogue's coaster rankings!
 layout: page
 lastUpdated: May 23, 2025
 ---
