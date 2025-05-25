@@ -16,6 +16,6 @@ The mini-golf course operated continuously over the span of a full day, so it wa
     style="border-radius: 0.5rem; max-width: 600px; width: 100%; height: auto;"
   >
   <figcaption style="margin-top: 1rem; font-size: 1rem; color: #161616;">
-    Operator GUI for Musical Steps
+    The Operator GUI for Musical Steps
   </figcaption>
 </figure>
