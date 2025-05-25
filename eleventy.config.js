@@ -99,6 +99,7 @@ export default async function (eleventyConfig) {
   );
 
   eleventyConfig.addPassthroughCopy({ 'src/assets/images': 'assets/images' });
+  eleventyConfig.addPassthroughCopy({ 'src/assets/videos': 'assets/videos' });
   eleventyConfig.addPassthroughCopy("src/google1234567890abcdef.html");
 
   eleventyConfig.addPassthroughCopy({

@@ -1,7 +1,7 @@
 ---
 title: Achievements
 permalink: /achievements/index.html
-description: "Jeremy's awards and acolades."
+description: "Jeremy Pogue's awards and accolades."
 layout: page
 ---
 

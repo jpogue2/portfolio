@@ -3,7 +3,7 @@ layout: base
 ---
 
 <div class="region wrapper flow prose" style="--region-space-top: var(--space-xl-2xl)">
-  <h1 class="{% if title == 'Scream USC' %}gradient-text-scream{% else %}gradient-text{% endif %}">
+  <h1 class="{% if title == 'Scream USC' %}gradient-text-scream{% elif title == 'Musical Steps' %}gradient-text-golf{% else %}gradient-text{% endif %}">
     {{ title }}
   </h1>
   {{ content | safe }}
