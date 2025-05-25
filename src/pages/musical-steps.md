@@ -5,7 +5,7 @@ description: An Arduino-based interactive mini-golf hole built by Jeremy Pogue.
 layout: page
 ---
 
-<img src="/assets/images/musical-steps-jeremy.jpg" alt="Jeremy Pogue in front of Musical Steps" sizes="(max-width: 615px) 50vw, 100vw" loading="eager" decoding="sync" style="border-radius: 0.5rem">
+<img src="/assets/images/fixed.jpg" alt="Jeremy Pogue in front of Musical Steps" sizes="(max-width: 615px) 50vw, 100vw" loading="eager" decoding="sync" style="border-radius: 0.5rem">
 
 <a href="https://github.com/jpogue2/MiniGolfv1" 
    target="_blank" 
