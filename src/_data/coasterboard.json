@@ -1,11 +1,15 @@
 [
   {
-    "name": "Iron Gwazi",
-    "park": "Busch Gardens Tampa"
+    "name": "The Voyage – HoliWood Nights",
+    "park": "Holiday World"
   },
   {
     "name": "F.L.Y.",
     "park": "Phantasialand"
+  },
+  {
+    "name": "Iron Gwazi",
+    "park": "Busch Gardens Tampa"
   },
   {
     "name": "Top Thrill Dragster",
@@ -44,10 +48,6 @@
     "park": "EPCOT"
   },
   {
-    "name": "The Legend",
-    "park": "Holiday World"
-  },
-  {
     "name": "ArieForce One",
     "park": "Fun Spot America Atlanta"
   },
@@ -84,11 +84,7 @@
     "park": "Busch Gardens Tampa"
   },
   {
-    "name": "The Raven",
-    "park": "Holiday World"
-  },
-  {
-    "name": "Thunderbird",
+    "name": "The Legend",
     "park": "Holiday World"
   },
   {
@@ -112,6 +108,14 @@
     "park": "Magic Kingdom"
   },
   {
+    "name": "Twisted Timbers",
+    "park": "Kings Dominion"
+  },
+  {
+    "name": "Thunderbird",
+    "park": "Holiday World"
+  },
+  {
     "name": "Valravn",
     "park": "Cedar Point"
   },
@@ -130,6 +134,10 @@
   {
     "name": "Magnum XL-200",
     "park": "Cedar Point"
+  },
+  {
+    "name": "The Raven",
+    "park": "Holiday World"
   },
   {
     "name": "Wonder Woman: Flight of Courage",
@@ -204,6 +212,10 @@
     "park": "Knott\u2019s Berry Farm"
   },
   {
+    "name": "Flight of Fear",
+    "park": "Kings Dominion"
+  },
+  {
     "name": "Apocalypse",
     "park": "Six Flags Magic Mountain"
   },
@@ -220,8 +232,20 @@
     "park": "Six Flags Magic Mountain"
   },
   {
+    "name": "Grizzly",
+    "park": "Kings Dominion"
+  },
+  {
     "name": "Colorado Adventure",
     "park": "Phantasialand"
+  },
+  {
+    "name": "Space Mountain",
+    "park": "Disneyland"
+  },
+  {
+    "name": "Dominator",
+    "park": "Kings Dominion"
   },
   {
     "name": "Viper",
@@ -292,10 +316,6 @@
     "park": "Magic Kingdom"
   },
   {
-    "name": "Space Mountain",
-    "park": "Disneyland"
-  },
-  {
     "name": "Colossus: The Fire Dragon",
     "park": "Lagoon"
   },
@@ -310,6 +330,10 @@
   {
     "name": "Big Thunder Mountain Railroad",
     "park": "Magic Kingdom"
+  },
+  {
+    "name": "Backlot Stunt Coaster",
+    "park": "Kings Dominion"
   },
   {
     "name": "Big Apple Coaster",
@@ -356,6 +380,10 @@
     "park": "Knott\u2019s Berry Farm"
   },
   {
+    "name": "Tumbili",
+    "park": "Kings Dominion"
+  },
+  {
     "name": "Demon",
     "park": "Tivoli Gardens"
   },
@@ -370,6 +398,10 @@
   {
     "name": "The High in the Sky Seuss Trolley Train Ride!",
     "park": "Universal's Islands of Adventure"
+  },
+  {
+    "name": "Reptilian",
+    "park": "Kings Dominion"
   },
   {
     "name": "Gemini",

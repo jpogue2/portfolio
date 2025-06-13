@@ -3,7 +3,7 @@ title: Coasterboard
 permalink: /coasterboard/index.html
 description: Jeremy Pogue's coaster rankings!
 layout: page
-lastUpdated: May 23, 2025
+lastUpdated: June 13, 2025
 ---
 
 Welcome to my Coasterboard! Here, I've compiled all of the roller coasters I've ridden and listed them in ranked-ish order. Tell me where I need to visit next!
