@@ -7,13 +7,6 @@
     "url": "/highlights/musical-steps/"
   },
   {
-    "name": "Bartholomew Banksworth",
-    "description": "A Raspberry Pi-based Monopoly opponent robot.",
-    "filename": "bart",
-    "date": "Fall 2023, Spring 2024",
-    "url": "/highlights/bart/"
-  },
-  {
     "name": "The SCavenger",
     "description": "An interactive adventure journal.",
     "filename": "scavenger",
