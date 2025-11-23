@@ -3,10 +3,10 @@ title: Coasterboard
 permalink: /coasterboard/index.html
 description: Jeremy Pogue's coaster rankings!
 layout: page
-lastUpdated: June 13, 2025
+lastUpdated: November 23, 2025
 ---
 
-Welcome to my Coasterboard! Here, I've compiled all of the roller coasters I've ridden and listed them in ranked-ish order. Tell me where I need to visit next!
+Welcome to my Coasterboard! Roller coasters are a big part of my life, so I've compiled everything I've ridden and listed them in ranked-ish order. Tell me where I need to visit next!
 
 Disclaimer: These rankings are completely agnostic of each experience's actual quality. They are riddled with personal bias and emotional significance. So, they are basically meaningless. But, isn't it fun to rank things?
 

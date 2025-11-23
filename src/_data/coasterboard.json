@@ -4,6 +4,18 @@
     "park": "Holiday World"
   },
   {
+    "name": "Ride to Happiness",
+    "park": "Plopsaland de Panne"
+  },
+  {
+    "name": "Stardust Racers (Green)",
+    "park": "Universal Epic Universe"
+  },
+  {
+    "name": "Stardust Racers (Yellow)",
+    "park": "Universal Epic Universe"
+  },
+  {
     "name": "F.L.Y.",
     "park": "Phantasialand"
   },
@@ -44,16 +56,36 @@
     "park": "Silver Dollar City"
   },
   {
+    "name": "Lightning Rod",
+    "park": "Dollywood"
+  },
+  {
+    "name": "Tonnerre 2 Zeus",
+    "park": "Parc Astérix"
+  },
+  {
     "name": "Guardians of the Galaxy: Cosmic Rewind",
     "park": "EPCOT"
   },
   {
-    "name": "ArieForce One",
-    "park": "Fun Spot America Atlanta"
+    "name": "Storm Runner",
+    "park": "Hersheypark"
   },
   {
     "name": "X2",
     "park": "Six Flags Magic Mountain"
+  },
+  {
+    "name": "Toutatis",
+    "park": "Parc Astérix"
+  },
+  {
+    "name": "Wildcat\u2019s Revenge",
+    "park": "Hersheypark"
+  },
+  {
+    "name": "ArieForce One",
+    "park": "Fun Spot America Atlanta"
   },
   {
     "name": "Taron",
@@ -80,8 +112,28 @@
     "park": "Six Flags Magic Mountain"
   },
   {
+    "name": "Hyperia",
+    "park": "Thorpe Park"
+  },
+  {
     "name": "SheiKra",
     "park": "Busch Gardens Tampa"
+  },
+  {
+    "name": "Fahrenheit",
+    "park": "Hersheypark"
+  },
+  {
+    "name": "Twisted Colossus",
+    "park": "Six Flags Magic Mountain"
+  },
+  {
+    "name": "Mystery Mine",
+    "park": "Dollywood"
+  },
+  {
+    "name": "Goliath",
+    "park": "Six Flags Great America"
   },
   {
     "name": "The Legend",
@@ -92,12 +144,12 @@
     "park": "Universal Studios Florida"
   },
   {
-    "name": "Twisted Colossus",
-    "park": "Six Flags Magic Mountain"
-  },
-  {
     "name": "Pipeline: The Surf Coaster",
     "park": "SeaWorld Orlando"
+  },
+  {
+    "name": "Skyrush",
+    "park": "Hersheypark"
   },
   {
     "name": "Cannibal",
@@ -108,12 +160,44 @@
     "park": "Magic Kingdom"
   },
   {
+    "name": "Maxx Force",
+    "park": "Six Flags Great America"
+  },
+  {
+    "name": "Hiccup\u2019s Wing Gliders",
+    "park": "Universal Epic Universe"
+  },
+  {
+    "name": "Wicker Man",
+    "park": "Alton Towers"
+  },
+  {
+    "name": "Xcelerator",
+    "park": "Knott\u2019s Berry Farm"
+  },
+  {
+    "name": "Raging Bull",
+    "park": "Six Flags Great America"
+  },
+  {
+    "name": "The Smiler",
+    "park": "Alton Towers"
+  },
+  {
+    "name": "Wrath of Rakshasa",
+    "park": "Six Flags Great America"
+  },
+  {
     "name": "Twisted Timbers",
     "park": "Kings Dominion"
   },
   {
     "name": "Thunderbird",
     "park": "Holiday World"
+  },
+  {
+    "name": "Stealth",
+    "park": "Thorpe Park"
   },
   {
     "name": "Valravn",
@@ -124,8 +208,8 @@
     "park": "Busch Gardens Tampa"
   },
   {
-    "name": "Xcelerator",
-    "park": "Knott\u2019s Berry Farm"
+    "name": "Oziris",
+    "park": "Plopsaland de Panne"
   },
   {
     "name": "Montu",
@@ -156,8 +240,20 @@
     "park": "Magic Kingdom"
   },
   {
+    "name": "SAW: The Ride",
+    "park": "Thorpe Park"
+  },
+  {
     "name": "Revenge of the Mummy",
     "park": "Universal Studios Florida"
+  },
+  {
+    "name": "Oblivion",
+    "park": "Alton Towers"
+  },
+  {
+    "name": "Thunderhead",
+    "park": "Dollywood"
   },
   {
     "name": "Manta",
@@ -166,6 +262,10 @@
   {
     "name": "Black Mamba",
     "park": "Phantasialand"
+  },
+  {
+    "name": "Wild Eagle",
+    "park": "Dollywood"
   },
   {
     "name": "Winja\u2019s Fear",
@@ -188,6 +288,10 @@
     "park": "Disney's California Adventure"
   },
   {
+    "name": "Tennessee Tornado",
+    "park": "Dollywood"
+  },
+  {
     "name": "Rock n\u2019 Roller Coaster",
     "park": "Disney\u2019s Hollywood Studios"
   },
@@ -208,8 +312,20 @@
     "park": "Silver Dollar City"
   },
   {
+    "name": "TH13TEEN",
+    "park": "Alton Towers"
+  },
+  {
     "name": "HangTime",
     "park": "Knott\u2019s Berry Farm"
+  },
+  {
+    "name": "Rita",
+    "park": "Alton Towers"
+  },
+  {
+    "name": "Galactica",
+    "park": "Alton Towers"
   },
   {
     "name": "Flight of Fear",
@@ -218,6 +334,18 @@
   {
     "name": "Apocalypse",
     "park": "Six Flags Magic Mountain"
+  },
+  {
+    "name": "Mine Cart Madness",
+    "park": "Universal Epic Universe"
+  },
+  {
+    "name": "Big Bear Mountain",
+    "park": "Dollywood"
+  },
+  {
+    "name": "Nemesis Reborn",
+    "park": "Alton Towers"
   },
   {
     "name": "White Lightning",
@@ -248,10 +376,6 @@
     "park": "Kings Dominion"
   },
   {
-    "name": "Viper",
-    "park": "Six Flags Magic Mountain"
-  },
-  {
     "name": "Dragon Challenge (blue)",
     "park": "Universal's Islands of Adventure"
   },
@@ -262,6 +386,14 @@
   {
     "name": "Riddler\u2019s Revenge",
     "park": "Six Flags Magic Mountain"
+  },
+  {
+    "name": "Viper",
+    "park": "Six Flags Magic Mountain"
+  },
+  {
+    "name": "Pegasus Express",
+    "park": "Parc Astérix"
   },
   {
     "name": "Raptor",
@@ -296,6 +428,10 @@
     "park": "Tivoli Gardens"
   },
   {
+    "name": "The Swarm",
+    "park": "Thorpe Park"
+  },
+  {
     "name": "Mantis",
     "park": "Cedar Point"
   },
@@ -312,8 +448,20 @@
     "park": "Universal Studios Florida"
   },
   {
+    "name": "Viper",
+    "park": "Six Flags Great America"
+  },
+  {
     "name": "Seven Dwarves Mine Train",
     "park": "Magic Kingdom"
+  },
+  {
+    "name": "Curse of the Werewolf",
+    "park": "Universal Epic Universe"
+  },
+  {
+    "name": "X Flight",
+    "park": "Six Flags Great America"
   },
   {
     "name": "Colossus: The Fire Dragon",
@@ -334,6 +482,10 @@
   {
     "name": "Backlot Stunt Coaster",
     "park": "Kings Dominion"
+  },
+  {
+    "name": "American Eagle",
+    "park": "Six Flags Great America"
   },
   {
     "name": "Big Apple Coaster",
@@ -390,6 +542,10 @@
   {
     "name": "Fire in the Hole",
     "park": "Silver Dollar City"
+  },
+  {
+    "name": "Blazing Fury",
+    "park": "Dollywood"
   },
   {
     "name": "Superman: Escape from Krypton",
