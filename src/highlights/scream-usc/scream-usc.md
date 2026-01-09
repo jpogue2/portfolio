@@ -5,7 +5,7 @@ description: A USC student organization dedicated to amusement park engineers an
 layout: page
 ---
 
-<img src="/assets/images/scream-grow.jpg" alt="Scream USC in front of Jurassic World at Universal Studios Hollywood" sizes="(max-width: 615px) 50vw, 100vw" loading="eager" decoding="sync" style="border-radius: 0.5rem">
+<img src="/assets/images/projects/scream-usc/scream-grow.jpg" alt="Scream USC in front of Jurassic World at Universal Studios Hollywood" sizes="(max-width: 615px) 50vw, 100vw" loading="eager" decoding="sync" style="border-radius: 0.5rem">
 
 <a href="https://www.linkedin.com/company/scream-usc" class="underline group"><span class="font-bold text-gray group-hover:text-orange transition-colors duration-200">Scream USC</span></a> is the University of Southern California’s official student organization for <strong>amusement park enthusiasts and aspiring themed entertainment engineers</strong>. Our mission is to create meaningful opportunities for students to engage with the amusement park industry through hands-on experiences and professional connections. 
 

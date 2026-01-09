@@ -5,7 +5,7 @@ description: An Arduino-based interactive mini-golf hole built by Jeremy Pogue.
 layout: page
 ---
 
-<img src="/assets/images/fixed.jpg" alt="Jeremy Pogue in front of Musical Steps" sizes="(max-width: 615px) 50vw, 100vw" loading="eager" decoding="sync" style="border-radius: 0.5rem">
+<img src="/assets/images/projects/musical-steps/fixed.jpg" alt="Jeremy Pogue in front of Musical Steps" sizes="(max-width: 615px) 50vw, 100vw" loading="eager" decoding="sync" style="border-radius: 0.5rem">
 
 <a href="https://github.com/jpogue2/MiniGolfv1" 
    target="_blank" 
@@ -26,7 +26,7 @@ The course was themed as an enchanted garden inhabited by mischievous fairies, w
 
 <figure style="text-align: center; margin: 2rem 0;">
   <img 
-    src="/assets/images/musical-steps-clues.png" 
+    src="/assets/images/projects/musical-steps/musical-steps-clues.png" 
     alt="Clues for Musical Steps" 
     loading="eager" 
     decoding="sync" 
@@ -60,7 +60,7 @@ What I initially thought would be a relatively simple project turned out to be t
 
 <figure style="text-align: center; margin: 2rem 0;">
   <img 
-    src="/assets/images/not-a-desk.png" 
+    src="/assets/images/projects/musical-steps/not-a-desk.png" 
     alt="Jeremy Pogue underneath the Musical Steps" 
     loading="eager" 
     decoding="sync" 
@@ -75,7 +75,7 @@ Here's a quick look at how it works:
 
 <figure style="text-align: center; margin: 2rem 0;">
   <img 
-    src="/assets/images/musical-steps-exposed.png" 
+    src="/assets/images/projects/musical-steps/musical-steps-exposed.png" 
     alt="Musical Steps exposed" 
     loading="eager" 
     decoding="sync" 
@@ -102,7 +102,7 @@ Here's a quick look at how it works:
 
 <figure style="text-align: center; margin: 2rem 0;">
   <img 
-    src="/assets/images/musical-steps-block-diagram.png" 
+    src="/assets/images/projects/musical-steps/musical-steps-block-diagram.png" 
     alt="Block diagram for Musical Steps" 
     loading="eager" 
     decoding="sync" 

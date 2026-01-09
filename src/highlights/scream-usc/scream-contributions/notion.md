@@ -9,7 +9,7 @@ Instead, we found a middle ground with Notion. Over the summer, I designed a com
 
 <figure style="text-align: center; margin: 2rem 0;">
   <img 
-    src="/assets/images/notion.png" 
+    src="/assets/images/projects/scream-usc/notion.png" 
     alt="Notion page for Scream USC" 
     loading="eager" 
     decoding="sync" 

@@ -1,22 +1,22 @@
 [
   {
-    "name": "Musical Steps",
+    "name": "Lead Engineer of Musical Steps",
     "description": "An Arduino-based interactive mini-golf hole.",
-    "filename": "musical-steps",
+    "filename": "projects/musical-steps/musical-steps",
     "date": "Spring 2025",
     "url": "/highlights/musical-steps/"
   },
   {
-    "name": "The SCavenger",
+    "name": "Lead Engineer of The SCavenger",
     "description": "An interactive adventure journal.",
-    "filename": "scavenger",
+    "filename": "projects/scavenger/scavenger",
     "date": "Spring 2025",
     "url": "/highlights/scavenger/"
   },
   {
-    "name": "Scream USC",
+    "name": "Founder of Scream USC",
     "description": "A student organization for roller coaster enthusiasts.",
-    "filename": "jurassic-world",
+    "filename": "projects/scream-usc/jurassic-world",
     "date": "Since Spring 2023",
     "url": "/highlights/scream-usc/"
   }

@@ -15,7 +15,7 @@ I approached my <a href="https://jpogue.netlify.app/highlights/scavenger" class=
 
 <figure style="text-align: center; margin: 2rem 0;">
   <img 
-    src="/assets/images/musical-steps-step.jpeg" 
+    src="/assets/images/projects/musical-steps/musical-steps-step.jpeg" 
     alt="The electrical components on a single step were a piezo vibration sensor and an RFID reader." 
     loading="eager" 
     decoding="sync" 
@@ -28,7 +28,7 @@ I approached my <a href="https://jpogue.netlify.app/highlights/scavenger" class=
 
 <figure style="text-align: center; margin: 2rem 0;">
   <img 
-    src="/assets/images/musical-steps-motherboard.jpeg" 
+    src="/assets/images/projects/musical-steps/musical-steps-motherboard.jpeg" 
     alt="Motherboard for Musical Steps" 
     loading="eager" 
     decoding="sync" 

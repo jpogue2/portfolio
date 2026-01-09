@@ -6,7 +6,7 @@ layout: page
 ---
 
 <div style="text-align: center;">
-    <img src="/assets/images/scavenger-team.jpg" alt="Jeremy Pogue and his team alongside The SCavenger" sizes="(max-width: 615px) 40vw, 50vw" loading="eager" decoding="sync" style="border-radius: 0.5rem; width: 800px;">
+    <img src="/assets/images/projects/scavenger/scavenger-team.jpg" alt="Jeremy Pogue and his team alongside The SCavenger" sizes="(max-width: 615px) 40vw, 50vw" loading="eager" decoding="sync" style="border-radius: 0.5rem; width: 800px;">
 </div>
 
 <a href="https://github.com/tinkerpinky10/ee459-project" 
@@ -30,7 +30,7 @@ The SCavenger is <strong>an interactive adventure journal</strong> – <strong>a
 
 <figure style="text-align: center; margin: 2rem 0;">
   <img 
-    src="/assets/images/scavenger-puzzles.png" 
+    src="/assets/images/projects/scavenger/scavenger-puzzles.png" 
     alt="Puzzle Diagram for the SCavenger" 
     loading="eager" 
     decoding="sync" 

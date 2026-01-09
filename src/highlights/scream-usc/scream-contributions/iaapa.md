@@ -5,7 +5,7 @@ tags: ["scream-contributions"]
 
 <figure style="text-align: center; margin: 2rem 0;">
   <img 
-    src="/assets/images/iaapa-us.jpeg" 
+    src="/assets/images/projects/scream-usc/iaapa-us.jpeg" 
     alt="Scream USC at IAAPA" 
     loading="eager" 
     decoding="sync" 

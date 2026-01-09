@@ -9,7 +9,7 @@ The mini-golf course operated continuously over the span of a full day, so it wa
 
 <figure style="text-align: center; margin: 2rem 0;">
   <img 
-    src="/assets/images/musical-steps-gui.png" 
+    src="/assets/images/projects/musical-steps/musical-steps-gui.png" 
     alt="GUI for Musical Steps" 
     loading="eager" 
     decoding="sync" 

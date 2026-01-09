@@ -9,7 +9,7 @@ This limitation was a known concern from the outset and became a central focus o
 
 <figure style="text-align: center; margin: 2rem 0;">
   <img 
-    src="/assets/images/musical-steps-rfid.jpeg" 
+    src="/assets/images/projects/musical-steps/musical-steps-rfid.jpeg" 
     alt="An Early RFID Unit Test" 
     loading="eager" 
     decoding="sync" 

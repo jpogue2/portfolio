@@ -9,7 +9,7 @@ That question sparked the idea for a student organization dedicated to amusement
 
 <figure style="text-align: center; margin: 2rem 0;">
   <img 
-    src="/assets/images/scream-inspo.jpg" 
+    src="/assets/images/projects/scream-usc/scream-inspo.jpg" 
     alt="Original brainstorming for Scream USC" 
     loading="eager" 
     decoding="sync" 
