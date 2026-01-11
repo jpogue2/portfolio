@@ -19,5 +19,12 @@
     "filename": "projects/scream-usc/jurassic-world",
     "date": "Since Spring 2023",
     "url": "/highlights/scream-usc/"
+  },
+  {
+    "name": "Project Manager of Bartholomew Banksworth",
+    "description": "A Monopoly opponent robot.",
+    "filename": "projects/bart/bart",
+    "date": "Fall 2023 - Spring 2024",
+    "url": "/highlights/bart/"
   }
 ]

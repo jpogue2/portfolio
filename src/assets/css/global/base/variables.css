@@ -48,6 +48,10 @@
   --color-secondary-golf: #045634;
   --color-tertiary-golf: #47160e;
 
+  --color-primary-bart: #1e7c32;
+  --color-secondary-bart: #936236;
+  --color-tertiary-bart: #e5a536;
+
   --color-text-accent: var(--color-gray-700);
   --color-bg-accent: var(--color-gray-200);
   --color-bg-accent-2: var(--color-gray-300);
