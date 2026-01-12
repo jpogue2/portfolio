@@ -5,6 +5,9 @@ package = "netlify-plugin-cache"
 
 
 [[headers]]
+    for = "/assets/portal-web/*"
+    [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
     for = "/*"
     [headers.values]
     Content-Security-Policy = "upgrade-insecure-requests;"
