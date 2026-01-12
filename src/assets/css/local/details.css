@@ -1,3 +1,4 @@
+/* Controls row (expand/collapse) */
 .details .control {
   --gutter: var(--space-xs-s);
   --cluster-horizontal-alignment: flex-end;
@@ -10,6 +11,7 @@ is-land:not(:defined) .details .control {
   display: none;
 }
 
+/* Spacing inside each <details> */
 .details details > * + * {
   margin-block-start: var(--flow-space, 1em);
 }
@@ -22,13 +24,15 @@ is-land:not(:defined) .details .control {
   margin-block-end: var(--space-l);
 }
 
+/* SUMMARY */
 .details summary {
   grid-column: content;
 }
 
+/* Summary base style (keeps your existing look/behavior) */
 .details summary {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   line-height: 1.2;
   gap: 0 1ch;
   cursor: pointer;
@@ -43,6 +47,7 @@ is-land:not(:defined) .details .control {
   color: var(--color-primary);
 }
 
+/* Custom marker */
 .details summary::before {
   content: '+';
   display: block;
@@ -60,20 +65,6 @@ is-land:not(:defined) .details .control {
   content: '–';
 }
 
-.details details > :is(h2, h3) {
-  font-weight: var(--font-bold);
-  font-size: var(--size-step-0);
-  border-block-end: var(--stroke);
-  padding-block-end: var(--space-xs);
-}
-
-.details details > :is(h2, h3) {
-  font-weight: var(--font-bold);
-  font-size: var(--size-step-0);
-  border-block-end: var(--stroke);
-  padding-block-end: var(--space-xs);
-}
-
 /* Hide default marker */
 .details summary::-webkit-details-marker,
 .details summary::marker {
@@ -81,10 +72,91 @@ is-land:not(:defined) .details .control {
   display: none;
 }
 
+/* Your header styling inside details */
+.details details > :is(h2, h3) {
+  font-weight: var(--font-bold);
+  font-size: var(--size-step-0);
+  border-block-end: var(--stroke);
+  padding-block-end: var(--space-xs);
+}
+
 .details summary + * {
   margin-block-start: var(--space-s-m);
 }
 
+/* Indent content under summary */
 .details details > * + * {
   margin-inline-start: 2.4ch;
 }
+
+/* ---------------------------
+   TAGS (new)
+   Requires:
+   <summary class="details__summary">
+     <span class="details__title">...</span>
+     <ul class="details__tags">...</ul>
+   </summary>
+---------------------------- */
+
+/* Make the summary content (title + tags) behave like your original layout */
+.details .details__summary {
+  width: 100%;
+  align-items: center; /* match original summary baseline feel */
+  justify-content: flex-start; /* don't spread everything out */
+}
+
+/* Push tags to the far right without changing spacing between marker/title */
+.details .details__tags {
+  margin-left: auto;
+}
+
+.details .details__title {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Inline tag row */
+.details .details__tags {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  justify-content: flex-end;
+}
+
+.details .details__tag {
+  display: inline-flex;
+  align-items: center;
+
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+
+  font-size: 0.6em;      /* smaller than title */
+  font-weight: 400;       /* not bold */
+  line-height: 1.1;
+  white-space: nowrap;
+
+  border: 1px solid color-mix(in oklab, currentColor 22%, transparent);
+  background: color-mix(in oklab, currentColor 10%, transparent);
+}
+
+/* Optional: stack tags under title on smaller screens */
+@media (max-width: 40rem) {
+  .details .details__summary {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .details .details__tags {
+    justify-content: flex-start;
+  }
+}
+
+/* Optional: color mappings if you add data-tag="{{ tag | slugify }}" */
+.details .details__tag[data-tag="opengl"] { color: #2563eb; }
+.details .details__tag[data-tag="sdl"] { color: #16a34a; }
+.details .details__tag[data-tag="webassembly"] { color: #ea580c; }
+.details .details__tag[data-tag="embedded"] { color: #7c3aed; }

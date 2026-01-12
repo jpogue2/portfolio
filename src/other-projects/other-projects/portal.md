@@ -1,6 +1,7 @@
 ---
 title: "Portal"
 tags: ["other-projects"]
+projectTags: ["C++", "OpenGL", "SDL", "WebAssembly"]
 ---
 
 <style>

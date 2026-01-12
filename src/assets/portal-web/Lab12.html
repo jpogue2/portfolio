@@ -11,19 +11,25 @@
         height: 100%;
         overflow: hidden;
         background: #000;
-        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
       }
 
-      /* Fullscreen canvas */
       #canvas {
         display: block;
-        width: 100%;
-        height: 100%;
         background: #000;
-        border: 0;
+
+        /* Keep aspect ratio without stretching */
+        width: 100vw;
+        height: 100vh;
+        object-fit: contain; /* key */
       }
 
-      /* Click-to-start overlay (blocks interaction until user clicks) */
+      /* Hide Emscripten’s default UI */
+      #emscripten_logo, #spinner, #status, #controls, #progress, #output,
+      .emscripten, .emscripten_border {
+        display: none !important;
+      }
+
+      /* Click-to-start overlay */
       #startOverlay {
         position: fixed;
         inset: 0;
@@ -40,6 +46,29 @@
         border: 0;
         cursor: pointer;
       }
+      #startOverlay .hint {
+        margin-top: 0.75rem;
+        font-size: 0.9rem;
+        opacity: 0.85;
+        text-align: center;
+      }
+
+      #pauseOverlay{
+        position: fixed;
+        inset: 0;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        background: rgba(0,0,0,0.65);
+        z-index: 20;
+      }
+      #pauseOverlay button{
+        font-size: 1.05rem;
+        padding: 0.75rem 1rem;
+        border-radius: 12px;
+        border: 0;
+        cursor: pointer;
+      }
     </style>
   </head>
 
@@ -47,15 +76,34 @@
     <canvas id="canvas" oncontextmenu="event.preventDefault()" tabindex="-1"></canvas>
 
     <div id="startOverlay">
-      <button id="startButton" disabled>Loading…</button>
+      <div style="text-align:center; color:white;">
+        <button id="startButton" disabled>Loading…</button>
+        <div class="hint">Click to start (enables audio). Press Esc to release cursor.</div>
+      </div>
     </div>
+
+    <div id="pauseOverlay" style="display:none;">
+      <div style="text-align:center; color:white;">
+        <div style="font-size:1.2rem; margin-bottom:0.75rem;">Paused</div>
+        <button id="resumeButton">Resume</button>
+        <button id="muteButton" style="margin-left:0.5rem;">Mute</button>
+        <div style="margin-top:0.75rem; font-size:0.9rem; opacity:0.85;">
+          Click Resume to lock mouse again.
+        </div>
+      </div>
+    </div>
+
+    <button id="floatingMute"
+      style="position:fixed; top:12px; right:12px; z-index:30; padding:8px 10px; border-radius:10px; border:0; cursor:pointer;">
+      Mute
+    </button>
 
     <script type="text/javascript">
       const canvasElement = document.getElementById("canvas");
       const startOverlay = document.getElementById("startOverlay");
       const startButton = document.getElementById("startButton");
 
-      // Helpful error visibility (since we’re not using the default Emscripten UI)
+      // Optional: better debugging
       window.addEventListener("error", (e) => {
         console.error("Window error:", e.error || e.message);
       });
@@ -63,65 +111,118 @@
         console.error("Unhandled promise rejection:", e.reason);
       });
 
-      canvasElement.addEventListener(
-        "webglcontextlost",
-        (e) => {
-          alert("WebGL context lost. You will need to reload the page.");
-          e.preventDefault();
-        },
-        false
-      );
+      canvasElement.addEventListener("webglcontextlost", (e) => {
+        alert("WebGL context lost. You will need to reload the page.");
+        e.preventDefault();
+      }, false);
 
+      // Resize drawing buffer to match CSS size (no Module.setCanvasSize needed)
       function resizeCanvasToDisplaySize() {
         const rect = canvasElement.getBoundingClientRect();
         const w = Math.max(1, Math.floor(rect.width));
         const h = Math.max(1, Math.floor(rect.height));
-
-        // Resize actual drawing buffer
         if (canvasElement.width !== w) canvasElement.width = w;
         if (canvasElement.height !== h) canvasElement.height = h;
       }
-
       window.addEventListener("resize", resizeCanvasToDisplaySize);
 
-      // NOTE: Option A:
-      // - We DO allow Emscripten to auto-run main().
-      // - We DO NOT call Module.callMain().
-      // - The overlay blocks interaction until user click (and we resume audio on click).
+      // --- Emscripten Module ---
+      // Requires you to build with: -sEXPORTED_RUNTIME_METHODS=['callMain']
       var Module = {
         canvas: canvasElement,
+
+        // Don't run main automatically; we start it on click.
+        noInitialRun: true,
 
         print: (...args) => console.log(...args),
         printErr: (...args) => console.error(...args),
 
-        // Some builds expect these to exist.
+        // Some builds expect these to exist
         setStatus: (text) => console.log("[emscripten]", text),
         monitorRunDependencies: (left) => console.log("[emscripten] deps left:", left),
 
         onRuntimeInitialized() {
-          console.log("[emscripten] runtime initialized");
           resizeCanvasToDisplaySize();
           startButton.disabled = false;
-          startButton.textContent = "Click to Start";
-        },
+          startButton.textContent = "Play";
+        }
       };
 
-      // Click-to-start: unlock audio + hide overlay.
+      const pauseOverlay = document.getElementById("pauseOverlay");
+      const resumeButton = document.getElementById("resumeButton");
+      const muteButton = document.getElementById("muteButton");
+
+      let isMuted = false;
+
+      function setPausedUI(paused) {
+        pauseOverlay.style.display = paused ? "flex" : "none";
+      }
+
+      // Mute/unmute helper (works for SDL2 audio via WebAudio)
+      function setMuted(muted) {
+        isMuted = muted;
+        muteButton.textContent = muted ? "Unmute" : "Mute";
+
+        // Emscripten SDL2 commonly uses a single AudioContext.
+        const ac = Module?.SDL2?.audioContext;
+        if (ac) {
+          // Prefer suspend/resume (actually stops processing)
+          if (muted) ac.suspend().catch(() => {});
+          else ac.resume().catch(() => {});
+        }
+
+        // Fallback: mute the Web Audio output if present
+        if (ac && ac.destination) {
+          // Not all builds expose a gain node; suspend/resume is usually enough.
+        }
+      }
+
+      // When pointer lock is lost, show pause overlay + mute (optional)
+      document.addEventListener("pointerlockchange", () => {
+        const locked = document.pointerLockElement === canvasElement;
+
+        if (!locked) {
+          setPausedUI(true);
+          // Optional: auto-mute when "paused"
+          // setMuted(true);
+        } else {
+          setPausedUI(false);
+          // Optional: auto-unmute on resume
+          // setMuted(false);
+        }
+      });
+
+      resumeButton.addEventListener("click", async () => {
+        // Request pointer lock again; this is what "resumes" mouse look in most FPS controls
+        canvasElement.focus();
+        canvasElement.requestPointerLock();
+
+        // If you want to unmute on resume:
+        // setMuted(false);
+      });
+
+      muteButton.addEventListener("click", () => setMuted(!isMuted));
+
+      const floatingMute = document.getElementById("floatingMute");
+      floatingMute.addEventListener("click", () => setMuted(!isMuted));
+
+      // Start the game only after a click (also unlocks audio)
       startButton.addEventListener("click", async () => {
         try {
           if (Module.SDL2 && Module.SDL2.audioContext && Module.SDL2.audioContext.state === "suspended") {
             await Module.SDL2.audioContext.resume();
           }
-        } catch (e) {
-          // ignore
-        }
+        } catch (e) {}
 
         startOverlay.style.display = "none";
         resizeCanvasToDisplaySize();
+
+        // Start C/C++ main
+        Module.callMain([]);
       });
     </script>
 
-    <!-- Avoid async while debugging startup order -->
+    <!-- Avoid async to keep init order predictable -->
     <script type="text/javascript" src="Lab12.js"></script>
   </body>
 </html>

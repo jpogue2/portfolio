@@ -5,7 +5,31 @@
   </div>
   {%- for item in itemList | alphabetic -%}
     <details id="{{ item.data.title | slugify }}">
-      <summary>{{ item.data.title }}</summary>
+      <summary class="details__summary">
+        <span class="details__title">{{ item.data.title }}</span>
+        {% if item.data.projectTags %}
+          {# hide collection/internal tags #}
+          {% set exclude = ["all", "nav", "post", "posts", "other-projects"] %}
+
+          {# first pass: figure out if we have any displayable tags #}
+          {% set hasProjectTags = false %}
+          {% for tag in item.data.projectTags %}
+            {% if tag not in exclude %}
+              {% set hasProjectTags = true %}
+            {% endif %}
+          {% endfor %}
+
+          {% if hasProjectTags %}
+            <ul class="details__tags" aria-label="Tags">
+              {% for tag in item.data.projectTags %}
+                {% if tag not in exclude %}
+                  <li class="details__tag" data-tag="{{ tag | slugify }}">{{ tag }}</li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          {% endif %}
+        {% endif %}
+      </summary>
       {{- item.templateContent | safe -}}
     </details>
   {%- endfor -%}
