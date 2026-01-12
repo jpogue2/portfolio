@@ -83,6 +83,10 @@ export default async function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy(path)
   );
 
+  eleventyConfig.addPassthroughCopy({ 
+    "src/assets/portal-web": "assets/portal-web" 
+  });
+
   eleventyConfig.addPassthroughCopy({ 'src/assets/images': 'assets/images' });
   eleventyConfig.addPassthroughCopy({ 'src/assets/videos': 'assets/videos' });
   eleventyConfig.addPassthroughCopy({ 'src/assets/files': 'assets/files' });

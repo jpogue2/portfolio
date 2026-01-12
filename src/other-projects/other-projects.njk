@@ -1,0 +1,31 @@
+---
+title: Other Projects
+permalink: /other-projects/index.html
+description: 'My other projects'
+layout: page
+sizes: '(max-width: 615px) 50vw, 100vw'
+widths: [400, 520]
+---
+
+<p>
+  These projects represent earlier work, smaller builds, and class assignments that I’m still proud of, but which didn’t warrant a full case study.
+</p>
+
+<article class="full  section" style="--spot-color: var(--color-bg-accent)">
+  {% svg "divider/soft-top", null, "divider" %}
+
+  <section class="feature section__inner wrapper">
+    <div class="wrapper">
+      <!-- you find tha data for that in src/_data/highlights.json -->
+        {% set itemList = collections['other-projects'] %}
+        {% set headingLevel = "h2" %}
+        {% include 'partials/details.njk' %}
+    </div>
+  </section>
+
+  {% svg "divider/soft-bottom", null, "divider" %}
+</article>
+
+{% css "local" %}
+  {% include "css/custom-card.css" %}
+{% endcss %}
