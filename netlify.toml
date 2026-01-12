@@ -4,8 +4,8 @@ package = "netlify-plugin-cache"
   paths = [ ".cache" ]
 
 [[headers]]
-  for = "/assets/portal-web/*"
-  [headers.values]
+    for = "/assets/portal-web/*"
+    [headers.values]
     X-Frame-Options = "SAMEORIGIN"
 
 [[headers]]
