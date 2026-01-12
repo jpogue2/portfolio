@@ -27,7 +27,7 @@ projectTags: ["C++", "OpenGL", "SDL", "WebAssembly"]
 <figure style="text-align: center; margin: 2rem 0;">
   <div style="width: min(1100px, 100%); margin: 0 auto; aspect-ratio: 16 / 9;">
     <iframe
-      src="/assets/portal-web/Lab12.html"
+      src="/assets/portal-web/lab12"
       style="width: 100%; height: 100%; border: 0; border-radius: 12px;"
       allow="fullscreen; autoplay"
       allowfullscreen
