@@ -26,5 +26,12 @@
     "filename": "projects/bart/bart",
     "date": "Fall 2023 - Spring 2024",
     "url": "/highlights/bart/"
+  },
+  {
+    "name": "My Internship Experiences",
+    "description": "Universal Creative, Lockheed Martin, and Capital One.",
+    "filename": "projects/internships/internships",
+    "date": "Since Summer 2023",
+    "url": "/highlights/internships/"
   }
 ]

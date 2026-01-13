@@ -1,7 +1,7 @@
 export default {
   top: [
     {
-      text: 'Highlight Projects',
+      text: 'Highlighted Projects',
       url: '/highlights/'
     },
     {

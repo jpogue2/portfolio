@@ -23,6 +23,13 @@ body {
   letter-spacing: var(--tracking);
 }
 
+:root {
+  --company-lockheed: #005DAA;
+  --company-capital-one: #C8102E;
+  --company-universal: #1A2A4F;
+}
+
+
 main {
   flex: auto;
 }
@@ -78,6 +85,22 @@ svg {
 b,
 strong {
   font-weight: var(--font-bold);
+}
+
+.company {
+  font-weight: var(--font-bold);
+}
+
+.company-lockheed {
+  color: var(--company-lockheed);
+}
+
+.company-capital-one {
+  color: var(--company-capital-one);
+}
+
+.company-universal {
+  color: var(--company-universal);
 }
 
 hr {

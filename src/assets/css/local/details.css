@@ -156,6 +156,8 @@ is-land:not(:defined) .details .control {
 }
 
 /* Optional: color mappings if you add data-tag="{{ tag | slugify }}" */
+.details .details__tag[data-tag="technical"] { color: #7c3aed; }
+.details .details__tag[data-tag="creative"] { color: #7c3aed; }
 .details .details__tag[data-tag="opengl"] { color: #2563eb; }
 .details .details__tag[data-tag="sdl"] { color: #16a34a; }
 .details .details__tag[data-tag="webassembly"] { color: #ea580c; }

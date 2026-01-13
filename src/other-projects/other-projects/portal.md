@@ -1,7 +1,7 @@
 ---
 title: "Portal"
 tags: ["other-projects"]
-projectTags: ["C++", "OpenGL", "SDL", "WebAssembly"]
+projectTags: ["Technical", "C++", "OpenGL", "SDL", "WebAssembly"]
 ---
 
 <style>
@@ -23,6 +23,9 @@ projectTags: ["C++", "OpenGL", "SDL", "WebAssembly"]
   }
 </style>
 
+As part of **ITP 380: Video Game Programming**, I built a **Portal-inspired 3D game** as my final project, working directly with **SDL and OpenGL** rather than a commercial engine.
+
+My primary role was **gameplay programming**. I designed and implemented multiple levels, each focused on exercising a different mechanic: physics-based 3D platforming, a functional Portal gun with correct portal physics, real-time portal window rendering, movable blocks, laser puzzles, audio and dialogue systems, and a pause UI.
 
 <figure style="text-align: center; margin: 2rem 0;">
   <div style="width: min(1100px, 100%); margin: 0 auto; aspect-ratio: 16 / 9;">
