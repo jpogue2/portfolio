@@ -4,6 +4,12 @@ package = "netlify-plugin-cache"
   paths = [ ".cache" ]
 
 [[headers]]
+  for = "/assets/portal-web/Lab12.html"
+  [headers.values]
+    Content-Security-Policy = "frame-ancestors 'self'; upgrade-insecure-requests;"
+    X-Frame-Options = "SAMEORIGIN"
+
+[[headers]]
   for = "/assets/portal-web/*"
   [headers.values]
     Content-Security-Policy = "frame-ancestors 'self'; upgrade-insecure-requests;"
