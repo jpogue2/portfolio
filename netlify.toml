@@ -4,25 +4,6 @@ package = "netlify-plugin-cache"
   paths = [ ".cache" ]
 
 [[headers]]
-  for = "/assets/portal-web/Lab12.html"
-  [headers.values]
-    Content-Security-Policy = "frame-ancestors 'self'; upgrade-insecure-requests;"
-    X-Frame-Options = "SAMEORIGIN"
-
-[[headers]]
-  for = "/assets/portal-web/*"
-  [headers.values]
-    Content-Security-Policy = "frame-ancestors 'self'; upgrade-insecure-requests;"
-    X-Frame-Options = "SAMEORIGIN"
-    X-Content-Type-Options = "nosniff"
-
-[[headers]]
-  for = "/assets/portal-web/**"
-  [headers.values]
-    Content-Security-Policy = "frame-ancestors 'self'; upgrade-insecure-requests;"
-    X-Frame-Options = "SAMEORIGIN"
-
-[[headers]]
   for = "/*"
   [headers.values]
     Content-Security-Policy = "frame-ancestors 'none'; upgrade-insecure-requests;"
@@ -30,6 +11,13 @@ package = "netlify-plugin-cache"
     X-XSS-Protection = "1; mode=block"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "autoplay=(), camera=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), publickey-credentials-get=()"
+
+[[headers]]
+  for = "/assets/portal-web/*"
+  [headers.values]
+    Content-Security-Policy = "frame-ancestors 'self'; upgrade-insecure-requests;"
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
 
 [[redirects]]
   from = "/assets/portal-web/Lab12.html"
