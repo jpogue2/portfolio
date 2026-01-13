@@ -25,6 +25,11 @@ package = "netlify-plugin-cache"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "autoplay=(), camera=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), publickey-credentials-get=()"
 
+[[redirects]]
+  from = "/assets/portal-web/Lab12.html"
+  to = "/assets/portal-web/Lab12.html"
+  status = 200
+  force = true
 
 [build]
   command = "npm run build"
