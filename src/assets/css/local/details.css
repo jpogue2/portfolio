@@ -155,10 +155,83 @@ is-land:not(:defined) .details .control {
   }
 }
 
-/* Optional: color mappings if you add data-tag="{{ tag | slugify }}" */
-.details .details__tag[data-tag="technical"] { color: #7c3aed; }
-.details .details__tag[data-tag="creative"] { color: #7c3aed; }
-.details .details__tag[data-tag="opengl"] { color: #2563eb; }
-.details .details__tag[data-tag="sdl"] { color: #16a34a; }
-.details .details__tag[data-tag="webassembly"] { color: #ea580c; }
-.details .details__tag[data-tag="embedded"] { color: #7c3aed; }
+/* Identity */
+.details .details__tag[data-tag="technical"] { color: #334155; } /* teal = “engineering/system” */
+.details .details__tag[data-tag="creative"]  { color: #be185d; } /* magenta/rose */
+
+/* Engineering domains */
+.details .details__tag[data-tag="embedded-systems"]      { color: #0f766e; } /* teal */
+.details .details__tag[data-tag="physical-computing"]    { color: #0d9488; } /* teal-green */
+.details .details__tag[data-tag="sensors-actuators"]     { color: #0e7490; } /* cyan-teal */
+.details .details__tag[data-tag="haptics"]               { color: #2563eb; } /* blue */
+
+.details .details__tag[data-tag="digital-design"]        { color: #1d4ed8; } /* blue */
+.details .details__tag[data-tag="computer-architecture"] { color: #1e40af; } /* indigo-blue */
+.details .details__tag[data-tag="fpga"]                  { color: #0ea5e9; } /* sky */
+
+.details .details__tag[data-tag="vlsi"]                  { color: #b45309; } /* amber-brown */
+.details .details__tag[data-tag="asic-design"]           { color: #92400e; } /* deep amber */
+.details .details__tag[data-tag="systolic-arrays"]       { color: #a16207; } /* amber */
+.details .details__tag[data-tag="hardware-design"]       { color: #7c2d12; } /* warm brown */
+
+/* Graphics / games */
+.details .details__tag[data-tag="computer-graphics"]     { color: #0ea5e9; } /* sky */
+.details .details__tag[data-tag="opengl"]                { color: #2563eb; } /* blue */
+.details .details__tag[data-tag="sdl"]                   { color: #16a34a; } /* green */
+.details .details__tag[data-tag="c"]                     { color: #334155; } /* slate */
+.details .details__tag[data-tag="c"] /* safeguard */     { color: #334155; }
+.details .details__tag[data-tag="c-"]                    { color: #334155; } /* if your slugger makes "c-" */
+.details .details__tag[data-tag="c-"] /* safeguard */    { color: #334155; }
+.details .details__tag[data-tag="c-2b-2b"]               { color: #334155; } /* some slugifiers make C++ weird */
+.details .details__tag[data-tag="c"] /* ignore */        { color: #334155; }
+
+.details .details__tag[data-tag="game-programming"]      { color: #7c3aed; } /* violet */
+.details .details__tag[data-tag="game-logic"]            { color: #6d28d9; } /* violet */
+.details .details__tag[data-tag="physics-simulation"]    { color: #0284c7; } /* blue-cyan */
+
+/* Web */
+.details .details__tag[data-tag="full-stack-development"]{ color: #ea580c; } /* orange */
+.details .details__tag[data-tag="web-development"]       { color: #f97316; } /* orange */
+.details .details__tag[data-tag="frontend"]              { color: #fb7185; } /* rose */
+.details .details__tag[data-tag="backend"]               { color: #c2410c; } /* burnt orange */
+
+/* Data / ML */
+.details .details__tag[data-tag="machine-learning"]      { color: #dc2626; } /* red */
+.details .details__tag[data-tag="data-analysis"]         { color: #b91c1c; } /* deep red */
+.details .details__tag[data-tag="predictive-modeling"]   { color: #ef4444; } /* red-leaning */
+
+/* Audio / signals / platform */
+.details .details__tag[data-tag="signal-processing"]     { color: #0891b2; } /* cyan */
+.details .details__tag[data-tag="audio-processing"]      { color: #0e7490; } /* deeper cyan */
+.details .details__tag[data-tag="raspberry-pi"]          { color: #be123c; } /* raspberry-ish */
+
+/* Tools */
+.details .details__tag[data-tag="cadence-virtuoso"]      { color: #7c2d12; } /* brown */
+
+/* Themed entertainment (domain bridge) */
+.details .details__tag[data-tag="themed-entertainment"]  { color: #a21caf; } /* purple-magenta */
+.details .details__tag[data-tag="ride-engineering"]      { color: #6b21a8; } /* deep purple */
+.details .details__tag[data-tag="systems-analysis"]      { color: #4f46e5; } /* indigo */
+.details .details__tag[data-tag="experience-evaluation"] { color: #c026d3; } /* fuchsia */
+
+/* Creative disciplines */
+.details .details__tag[data-tag="game-design"]           { color: #f59e0b; } /* amber */
+.details .details__tag[data-tag="systems-design"]        { color: #d97706; } /* amber-brown */
+.details .details__tag[data-tag="user-experience"]       { color: #eab308; } /* yellow */
+.details .details__tag[data-tag="rules-design"]          { color: #b45309; } /* amber-brown */
+
+.details .details__tag[data-tag="experience-design"]     { color: #f97316; } /* orange */
+.details .details__tag[data-tag="narrative-design"]      { color: #fb7185; } /* rose */
+.details .details__tag[data-tag="concept-design"]        { color: #f43f5e; } /* strong rose */
+
+.details .details__tag[data-tag="physical-modeling"]     { color: #a16207; } /* amber */
+.details .details__tag[data-tag="fabrication"]           { color: #78350f; } /* brown */
+.details .details__tag[data-tag="scenic-design"]         { color: #9a3412; } /* warm brown */
+.details .details__tag[data-tag="3d-printing"]           { color: #475569; } /* slate */
+
+/* New tags */
+.details .details__tag[data-tag="model-making"]    { color: #a16207; } /* warm amber = physical craft */
+.details .details__tag[data-tag="graphic-design"]  { color: #c026d3; } /* fuchsia = visual/branding */
+.details .details__tag[data-tag="animation"]       { color: #14b8a6; } /* teal-bright = motion */
+.details .details__tag[data-tag="sensors-actuators"],
+.details .details__tag[data-tag="sensors-and-actuators"] { color: #0e7490; } /* cyan-teal = hardware IO */

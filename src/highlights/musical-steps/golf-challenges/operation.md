@@ -1,5 +1,5 @@
 ---
-title: "Challenge #4: Operation"
+title: "Operation"
 tags: ["golf-challenges"]
 ---
 

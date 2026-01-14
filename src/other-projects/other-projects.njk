@@ -17,9 +17,10 @@ widths: [400, 520]
   <section class="feature section__inner wrapper">
     <div class="wrapper">
       <!-- you find tha data for that in src/_data/highlights.json -->
-        {% set itemList = collections['other-projects'] %}
-        {% set headingLevel = "h2" %}
-        {% include 'partials/details.njk' %}
+      {% set itemList = collections.otherProjects %}
+      {% set headingLevel = "h2" %}
+      {% set sortMode = "manual" %}
+      {% include 'partials/details.njk' %}
     </div>
   </section>
 

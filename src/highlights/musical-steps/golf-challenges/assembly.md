@@ -1,5 +1,5 @@
 ---
-title: "Challenge #1: Assembly and Wire Management"
+title: "Assembly and Wire Management"
 tags: ["golf-challenges"]
 ---
 

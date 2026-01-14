@@ -1,5 +1,5 @@
 ---
-title: "Challenge #3: Audio Delay"
+title: "Audio Delay"
 tags: ["golf-challenges"]
 ---
 

@@ -15,7 +15,7 @@ dotenv.config();
 import yaml from 'js-yaml';
 
 //  config import
-import { showInSitemap } from './src/_config/collections.js';
+import { showInSitemap, otherProjectsCollection } from './src/_config/collections.js';
 import events from './src/_config/events.js';
 import filters from './src/_config/filters.js';
 import plugins from './src/_config/plugins.js';
@@ -33,6 +33,7 @@ export default async function (eleventyConfig) {
 
   //	---------------------  Collections
   eleventyConfig.addCollection('showInSitemap', showInSitemap);
+  eleventyConfig.addCollection("otherProjects", otherProjectsCollection);
 
   // ---------------------  Plugins
   eleventyConfig.addPlugin(plugins.htmlConfig);

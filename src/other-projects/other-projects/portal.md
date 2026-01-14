@@ -1,7 +1,8 @@
 ---
 title: "Portal"
 tags: ["other-projects"]
-projectTags: ["Technical", "C++", "OpenGL", "SDL", "WebAssembly"]
+projectTags: ["Technical", "Game Programming", "C++", "OpenGL", "Physics Simulation"]
+order: 1
 ---
 
 <style>
@@ -38,6 +39,6 @@ My primary role was **gameplay programming**. I designed and implemented multipl
   </div>
 
   <figcaption style="margin-top: 0.75rem; font-size: 0.9rem; color: #666;">
-    Click to focus. Press Esc to release cursor. <a href="/assets/portal-web/Lab12.html" target="_blank" rel="noopener">Open fullscreen</a>
+    Click to focus. Press Esc to release cursor. WASD + Space to move. Left-click to shoot blue portal, right-click to shoot orange portal. <a href="/assets/portal-web/Lab12.html" target="_blank" rel="noopener">Open fullscreen</a>
   </figcaption>
 </figure>

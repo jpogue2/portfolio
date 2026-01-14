@@ -1,5 +1,5 @@
 ---
-title: "Challenge #2: Long-Range SPI"
+title: "Long-Range SPI"
 tags: ["golf-challenges"]
 ---
 
