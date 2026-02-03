@@ -20,6 +20,19 @@ As part of **CTPR 456: Introduction to Art Direction**, I constructed a **hand-b
   </figcaption>
 </figure>
 
+<figure style="text-align: center; margin: 2rem 0;">
+  <img 
+    src="/assets/images/projects/bojack/bojack-drawings.jpeg" 
+    alt="Floor plan and elevation drawings used to construct the white model" 
+    loading="eager" 
+    decoding="sync" 
+    style="border-radius: 0.5rem; max-width: 600px; width: 100%; height: auto;"
+  >
+  <figcaption style="margin-top: 1rem; font-size: 1rem; color: #161616;">
+    Floor plan and elevation drawings used to construct the white model
+  </figcaption>
+</figure>
+
 To provide context and scale, I added minimal scenic elements, including palm trees and a to-scale 3D-printed figure of BoJack Horseman.
 
 <figure style="text-align: center; margin: 2rem 0;">
