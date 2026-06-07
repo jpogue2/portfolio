@@ -2,7 +2,7 @@
 title: "Thirteen Safes"
 tags: ["other-projects"]
 projectTags: ["Creative", "Game Design", "User Experience"]
-order: 10
+order: 11
 ---
 
 As part of **CTIN 488: Game Design Workshop**, I served as the producer of Thirteen Safes, a **4-player social deduction board game**. Over three weeks of concepting, development, and playtesting, our team iterated on a physical prototype to refine both mechanics and pacing. The final game is a **Clue-inspired experience** in which a hidden “killer” conceals their possessions to mislead innocent players during a preliminary killing phase, enhanced by a **custom audio track**.

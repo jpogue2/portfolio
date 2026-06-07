@@ -2,7 +2,7 @@
 title: "Queue Time Analysis"
 tags: ["other-projects"]
 projectTags: ["Technical", "Machine Learning", "Themed Entertainment"]
-order: 2
+order: 3
 ---
 
 As part of **CSCI 467: Introduction to Machine Learning**, I developed a data-driven analysis of short-term **queue time prediction for Disneyland’s Space Mountain**. Using historical wait time data augmented with temporal, weather, and holiday features, I evaluated multiple regression and learning-based models.

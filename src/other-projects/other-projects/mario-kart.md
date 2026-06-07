@@ -2,7 +2,7 @@
 title: "Mario Kart Analysis"
 tags: ["other-projects"]
 projectTags: ["Creative", "Graphic Design", "Themed Entertainment"]
-order: 11
+order: 12
 ---
 
 As part of **CTIN 191: Survey of Themed Entertainment**, I conducted a detailed analysis of the design decisions behind **Mario Kart: Bowser’s Challenge** at **Universal Studios Hollywood**. The analysis examines how ride system technology, spatial layout, queue design, and augmented reality elements are integrated to support gameplay clarity, guest flow, and narrative cohesion.

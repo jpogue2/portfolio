@@ -2,7 +2,7 @@
 title: "Pink Floyd Experience"
 tags: ["other-projects"]
 projectTags: ["Creative", "Experience Design", "Themed Entertainment"]
-order: 5
+order: 6
 ---
 
 As part of **CTIN 452: Themed Entertainment Design**, I collaborated on a concept for an **immersive walkthrough experience** inspired by Pink Floyd’s The Dark Side of the Moon. The project focused on translating the album’s themes and emotional arc into a cohesive spatial and sensory guest experience.

@@ -2,7 +2,7 @@
 title: "BoJack's House"
 tags: ["other-projects"]
 projectTags: ["Creative", "Model Making", "3D Printing"]
-order: 8
+order: 9
 ---
 
 As part of **CTPR 456: Introduction to Art Direction**, I constructed a **hand-built white model** of BoJack Horseman’s house. Using screenshots from the animated series, I derived detailed dimensional breakdowns, produced scaled drawings, and fabricated the final model from **hand-cut foam core**.

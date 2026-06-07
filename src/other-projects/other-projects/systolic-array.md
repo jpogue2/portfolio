@@ -2,7 +2,7 @@
 title: "Systolic Array"
 tags: ["other-projects"]
 projectTags: ["Technical", "VLSI", "Digital Design", "ASIC Design", "Cadence Virtuoso"]
-order: 4
+order: 5
 ---
 
 As part of **EE 477: MOS VLSI Circuit Design**, I designed and implemented a **full-custom 4×4 systolic array for matrix multiplication** using Cadence Virtuoso. The architecture was built around a grid of pipelined processing elements that stream input matrices through the array while accumulating partial sums in a regular, scalable dataflow. Ripple-carry adders were built from a [research-derived CMOS full-adder cell](https://www.semanticscholar.org/paper/Low-Power-and-High-Performance-1-Bit-CMOS-Cell-Navi-Kavehei/5f2099a6f33cf69d818c6543b8dd57a2a32a5cf0) optimized at the transistor level for area and delay.

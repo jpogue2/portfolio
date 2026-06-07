@@ -2,7 +2,7 @@
 title: "Plumbing Game"
 tags: ["other-projects"]
 projectTags: ["Technical", "Embedded Systems", "Sensors & Actuators"]
-order: 6
+order: 7
 ---
 
 As part of **CTIN 486: Alternative Control Workshop**, I served as the director of a **physical, body-based plumbing game**. Players crawled beneath a cabinet and, while lying on their backs, **used their fingers to plug “leaks”** as they appeared—an interaction inspired by Whack-A-Mole. Each leak integrated a **Hall effect sensor** to detect magnetic finger plugs, along with an LED and buzzer to signal activation and a vibration motor to provide **haptic feedback**.

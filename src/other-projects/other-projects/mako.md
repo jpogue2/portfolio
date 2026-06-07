@@ -2,7 +2,7 @@
 title: "Mako POV"
 tags: ["other-projects"]
 projectTags: ["Technical", "Computer Graphics", "OpenGL", "Animation"]
-order: 3
+order: 4
 ---
 
 As part of **CSCI 420: Computer Graphics**, I built a **first-person roller coaster simulation** inspired by SeaWorld Orlando's Mako using modern OpenGL. I generated the track by sampling a **Catmull–Rom spline** and sweeping a cross-section along it, computing a stable tangent–normal–binormal frame to keep the camera and rails smoothly oriented through steep turns and drops.
