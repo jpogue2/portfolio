@@ -11,6 +11,6 @@ A **tuned XGBoost model** achieved the best performance, **predicting queue time
 
 <p>
   <a href="/assets/files/space-mountain.pdf" target="_blank" rel="noopener noreferrer">
-    View the report
+    View the report PDF
   </a>
 </p>

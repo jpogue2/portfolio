@@ -11,6 +11,6 @@ I **contributed to key experiential design decisions**, **led the graphic design
 
 <p>
   <a href="/assets/files/pink-floyd-slides.pdf" target="_blank" rel="noopener noreferrer">
-    View the slide deck
+    View the slide deck PDF
   </a>
 </p>
