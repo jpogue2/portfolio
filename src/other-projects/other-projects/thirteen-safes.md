@@ -9,6 +9,12 @@ As part of **CTIN 488: Game Design Workshop**, I served as the producer of Thirt
 
 As my first time **in a leadership role on a creative team**, this project pushed me to develop facilitation skills alongside design instincts. I learned how to **guide brainstorming sessions** toward actionable outcomes, **leverage creative dissonance** as a strength, and **make clear decisions** when consensus wasn’t possible.
 
+<p>
+  <a href="/assets/files/thirteen-safes.pdf" target="_blank" rel="noopener noreferrer">
+    View the game rules PDF
+  </a>
+</p>
+
 <figure style="text-align: center; margin: 2rem 0;">
   <video 
     controls 
@@ -21,17 +27,5 @@ As my first time **in a leadership role on a creative team**, this project pushe
   </video>
   <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #444;">
     Concept trailor for Thirteen Safes
-  </figcaption>
-</figure>
-
-<figure style="text-align: center; margin: 2rem 0;">
-  <embed
-    src="/assets/files/thirteen-safes.pdf"
-    type="application/pdf"
-    width="60%"
-    height="600"
-  />
-  <figcaption style="margin-top: 0.75rem; font-size: 0.9rem; color: #666;">
-    Game rules for Thirteen Safes
   </figcaption>
 </figure>

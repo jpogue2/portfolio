@@ -9,11 +9,8 @@ As part of **CTIN 452: Themed Entertainment Design**, I collaborated on a concep
 
 I **contributed to key experiential design decisions**, **led the graphic design** for the final pitch deck below, and **performed light audio engineering** to dynamically shape background music: adjusting volume, texture, and emphasis to support specific moments during the presentation.
 
-<div style="text-align: center; margin-top: 1.5rem;">
-  <embed
-    src="/assets/files/pink-floyd-slides.pdf"
-    type="application/pdf"
-    width="60%"
-    height="600"
-  />
-</div>
+<p>
+  <a href="/assets/files/pink-floyd-slides.pdf" target="_blank" rel="noopener noreferrer">
+    View the slide deck
+  </a>
+</p>
