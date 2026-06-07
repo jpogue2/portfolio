@@ -10,10 +10,10 @@ As part of **CSCI 467: Introduction to Machine Learning**, I developed a data-dr
 A **tuned XGBoost model** achieved the best performance, **predicting queue times within 15 minutes** on test data. Error analysis highlighted the impact of unmodeled factors such as ride closures.
 
 <div style="text-align: center; margin-top: 1.5rem;">
-  <iframe
+  <embed
     src="/assets/files/space-mountain.pdf"
-    width="100%"
+    type="application/pdf"
+    width="60%"
     height="600"
-    style="border: none; max-width: 100%;">
-  </iframe>
+  />
 </div>

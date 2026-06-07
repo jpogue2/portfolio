@@ -46,10 +46,10 @@ On the protoboard side, pin headers were cut and soldered in place, both for eac
 If I had done this alone, it would have taken days. But fortunately, other team members were eager to help. I created a series of <strong>step-by-step instructions</strong> to guide them through assembling and testing each component. Here’s an example for the piezo vibration sensors.
 
 <div style="text-align: center;">
-  <iframe 
-    src="/assets/files/piezo-instructions.pdf" 
-    width="60%" 
-    height="300px" 
-    style="border: none; display: inline-block;">
-  </iframe>
+  <embed
+    src="/assets/files/piezo-instructions.pdf"
+    type="application/pdf"
+    width="60%"
+    height="600"
+  />
 </div>

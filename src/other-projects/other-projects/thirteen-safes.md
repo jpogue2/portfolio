@@ -25,12 +25,12 @@ As my first time **in a leadership role on a creative team**, this project pushe
 </figure>
 
 <figure style="text-align: center; margin: 2rem 0;">
-  <iframe 
-    src="/assets/files/thirteen-safes.pdf" 
-    width="60%" 
-    height="600px" 
-    style="border: none; display: inline-block;">
-  </iframe>
+  <embed
+    src="/assets/files/thirteen-safes.pdf"
+    type="application/pdf"
+    width="60%"
+    height="600"
+  />
   <figcaption style="margin-top: 0.75rem; font-size: 0.9rem; color: #666;">
     Game rules for Thirteen Safes
   </figcaption>
